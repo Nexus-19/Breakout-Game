@@ -11,6 +11,7 @@
 		5661108827848DCF0098BB46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661108727848DCF0098BB46 /* ContentView.swift */; };
 		5661108A27848DD10098BB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5661108927848DD10098BB46 /* Assets.xcassets */; };
 		5661108D27848DD10098BB46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5661108C27848DD10098BB46 /* Preview Assets.xcassets */; };
+		5661109427848E5F0098BB46 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661109327848E5F0098BB46 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5661108727848DCF0098BB46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5661108927848DD10098BB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5661108C27848DD10098BB46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5661109327848E5F0098BB46 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5661108527848DCF0098BB46 /* Breakout_GameApp.swift */,
 				5661108727848DCF0098BB46 /* ContentView.swift */,
+				5661109327848E5F0098BB46 /* GameScene.swift */,
 				5661108927848DD10098BB46 /* Assets.xcassets */,
 				5661108B27848DD10098BB46 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5661109427848E5F0098BB46 /* GameScene.swift in Sources */,
 				5661108827848DCF0098BB46 /* ContentView.swift in Sources */,
 				5661108627848DCF0098BB46 /* Breakout_GameApp.swift in Sources */,
 			);
